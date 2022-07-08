@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.227,=C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.221,=C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.889,C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\POO CPP\Homework\P4\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.610,=D:\POO CPP\Homework\P4\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.429,C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\POO CPP\Homework\P4\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.368,C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\POO CPP\Homework\P4\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.368,C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\POO CPP\Homework\P4\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.451,=D:\POO CPP\Homework\P4\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.368,C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\POO CPP\Homework\P4\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.252,=C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.242,=C:\Users\Inesa Godorozea\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

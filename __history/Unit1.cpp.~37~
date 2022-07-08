@@ -1,0 +1,119 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include <DateUtils.hpp>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Image1MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y)
+{
+ReleaseCapture();
+Perform(WM_SYSCOMMAND,0xF012,0);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Image2Click(TObject *Sender)
+{
+Application->Terminate();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image2MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y)
+{
+   Image2->Picture->LoadFromFile("button44.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image2MouseMove(TObject *Sender, TShiftState Shift, int X,
+          int Y)
+{
+	 Image2->Picture->LoadFromFile("button44.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image2MouseLeave(TObject *Sender)
+{
+	  Image2->Picture->LoadFromFile("button4.png");
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Image3MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y)
+{
+   Image3->Picture->LoadFromFile("button11.png");
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Image3MouseLeave(TObject *Sender)
+{
+	   Image3->Picture->LoadFromFile("button1.png");
+}
+//---------------------------------------------------------------------------
+   void __fastcall TForm1::Image3MouseMove(TObject *Sender, TShiftState Shift, int X,
+		  int Y)
+{
+	Image3->Picture->LoadFromFile("button11.png");
+}
+
+
+void __fastcall TForm1::Image4MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y)
+{
+	 Image4->Picture->LoadFromFile("button22.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image4MouseLeave(TObject *Sender)
+{
+		Image4->Picture->LoadFromFile("button2.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image4MouseMove(TObject *Sender, TShiftState Shift, int X,
+          int Y)
+{
+	Image4->Picture->LoadFromFile("button22.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image5MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y)
+{
+    Image5->Picture->LoadFromFile("button33.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image5MouseLeave(TObject *Sender)
+{
+     Image5->Picture->LoadFromFile("button3.png");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Image5MouseMove(TObject *Sender, TShiftState Shift, int X,
+          int Y)
+{
+    Image5->Picture->LoadFromFile("button33.png");
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm1::Timer1Timer(TObject *Sender)
+{
+ Label1->Caption=IncSeconds(Time(),+1).FormatString("hh:mm:ss");
+
+
+ }
